@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    font-size: 1.75em;
+    font-weight: bolder;
+    margin: 25px 0 25px 0;
+}
+
+[class*="textRegion"] {
+    background-color: #adddbc;
+    position: relative;
+    float: left;
+    padding: 60px 15px 15px;
+    margin-left: 2.5%;
+    border: 1px solid black;
+}
+
+[class*="titleRegion"] {
+    position: absolute;
+    right: -1px;
+    top: -1px;
+    width: 120px;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.25em;
+    font-weight: bolder;
+    border: 1px solid black;
+}
+
+.titleRegion1 {
+    background-color: #fff149;
+}
+.titleRegion2 {
+    background-color: #ff7349;
+}
+.titleRegion3 {
+    background-color: #50ff49;
+}
+
+@media screen and (min-width: 992px) {
+
+    [class*="textRegion"] {
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    .textRegion1,
+    .textRegion2 {
+        width: 46.125%;
+        margin-bottom: 2.5%;
+    }
+
+    .textRegion3 {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    [class*="textRegion"] {
+        width: 95%;
+        margin: 0 2.5% 2.5%;
+    }
+}
