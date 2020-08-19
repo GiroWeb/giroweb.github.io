@@ -1,0 +1,37 @@
+body {
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.navbar {
+/*    border: 1px solid darkgray;*/
+}
+
+.navbar-header a {
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+li {
+    border-bottom: 1px solid lightgray;
+}
+
+li:last-child{
+    border-bottom: 0;
+}
+
+.menuContainer {
+    padding: 15px;
+    margin-bottom: 25px;
+    background-color: lightgray;
+    border-radius: 15px;
+    
+}
+.pageTitle {
+    font-size: 2em;
+    font-weight: bolder;
+}
+.menuName {
+    font-size: 1.3em;
+    font-weight: bolder;
+    border-bottom: 1px solid darkgray;
+}
